@@ -61,12 +61,11 @@
             <name>Nexus Snapshot Repository</name>
             <url>http://192.168.160.140:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
-
-
     </distributionManagement>
 
 
     <build>
+        <finalName>${project.artifactId}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
